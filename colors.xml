@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="displayColor">#e7ffe1</color>
+    <color name="backspaceRed">#ff0000</color>
+    <color name="clearYellow">#ffee00</color>
+    <color name="equalsGreen">#08ff00</color>
+    <color name="buttonsBlue">#0026ff</color>
+    <color name="buttonsTextColor">#ffffff</color>
+    <color name="bgcolor">#aa008577</color>
+</resources>
