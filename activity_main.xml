@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -16,6 +16,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
         android:layout_marginTop="34dp"
+        android:layout_x="39dp"
+        android:layout_y="50dp"
         android:background="@color/displayColor"
         android:gravity="right"
         android:textAlignment="gravity"
@@ -23,13 +25,14 @@
 
     <Button
         android:id="@+id/backspace"
-        android:layout_width="73dp"
-        android:layout_height="59dp"
+        android:layout_width="76dp"
+        android:layout_height="64dp"
         android:layout_alignStart="@+id/display"
         android:layout_alignParentTop="true"
         android:layout_marginStart="-1dp"
         android:layout_marginTop="135dp"
-        android:background="@color/backspaceRed"
+        android:layout_x="37dp"
+        android:layout_y="124dp"
         android:text="B" />
 
     <Button
@@ -40,6 +43,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="103dp"
         android:layout_marginTop="0dp"
+        android:layout_x="122dp"
+        android:layout_y="128dp"
         android:background="@color/clearYellow"
         android:text="C" />
 
@@ -51,6 +56,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="109dp"
+        android:layout_x="198dp"
+        android:layout_y="128dp"
         android:background="@color/buttonsBlue"
         android:text="%"
         android:textColor="@color/buttonsTextColor" />
@@ -63,6 +70,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="-1dp"
+        android:layout_x="275dp"
+        android:layout_y="129dp"
         android:background="@color/buttonsBlue"
         android:text="/"
         android:textColor="@color/buttonsTextColor" />
@@ -75,18 +84,22 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="23dp"
         android:layout_marginTop="203dp"
+        android:layout_x="38dp"
+        android:layout_y="194dp"
         android:background="@color/buttonsBlue"
         android:text="7"
         android:textColor="@color/buttonsTextColor" />
 
     <Button
         android:id="@+id/eight"
-        android:layout_width="69dp"
+        android:layout_width="71dp"
         android:layout_height="59dp"
         android:layout_alignStart="@+id/clear"
         android:layout_alignTop="@+id/seven"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
+        android:layout_x="121dp"
+        android:layout_y="195dp"
         android:background="@color/buttonsBlue"
         android:text="8"
         android:textColor="@color/buttonsTextColor" />
@@ -99,6 +112,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="108dp"
         android:layout_marginBottom="-1dp"
+        android:layout_x="198dp"
+        android:layout_y="195dp"
         android:background="@color/buttonsBlue"
         android:text="9"
         android:textColor="@color/buttonsTextColor" />
@@ -111,6 +126,8 @@
         android:layout_alignTop="@+id/nine"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
+        android:layout_x="274dp"
+        android:layout_y="196dp"
         android:background="@color/buttonsBlue"
         android:text="*"
         android:textColor="@color/buttonsTextColor" />
@@ -123,6 +140,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-1dp"
         android:layout_marginBottom="227dp"
+        android:layout_x="37dp"
+        android:layout_y="268dp"
         android:background="@color/buttonsBlue"
         android:text="4"
         android:textColor="@color/buttonsTextColor" />
@@ -135,6 +154,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="103dp"
         android:layout_marginTop="2dp"
+        android:layout_x="121dp"
+        android:layout_y="267dp"
         android:background="@color/buttonsBlue"
         android:text="5"
         android:textColor="@color/buttonsTextColor" />
@@ -147,6 +168,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="107dp"
         android:layout_marginBottom="-3dp"
+        android:layout_x="198dp"
+        android:layout_y="269dp"
         android:background="@color/buttonsBlue"
         android:text="6"
         android:textColor="@color/buttonsTextColor" />
@@ -159,6 +182,8 @@
         android:layout_alignTop="@+id/four"
         android:layout_marginStart="1dp"
         android:layout_marginTop="3dp"
+        android:layout_x="274dp"
+        android:layout_y="267dp"
         android:background="@color/buttonsBlue"
         android:text="-"
         android:textColor="@color/buttonsTextColor" />
@@ -171,6 +196,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-1dp"
         android:layout_marginBottom="155dp"
+        android:layout_x="39dp"
+        android:layout_y="336dp"
         android:background="@color/buttonsBlue"
         android:text="1"
         android:textColor="@color/buttonsTextColor" />
@@ -183,6 +210,8 @@
         android:layout_alignTop="@+id/one"
         android:layout_marginStart="1dp"
         android:layout_marginTop="2dp"
+        android:layout_x="122dp"
+        android:layout_y="335dp"
         android:background="@color/buttonsBlue"
         android:text="2"
         android:textColor="@color/buttonsTextColor" />
@@ -195,6 +224,8 @@
         android:layout_alignBottom="@+id/one"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="-3dp"
+        android:layout_x="199dp"
+        android:layout_y="335dp"
         android:background="@color/buttonsBlue"
         android:text="3"
         android:textColor="@color/buttonsTextColor" />
@@ -207,6 +238,8 @@
         android:layout_alignTop="@+id/one"
         android:layout_marginStart="1dp"
         android:layout_marginTop="3dp"
+        android:layout_x="274dp"
+        android:layout_y="336dp"
         android:background="@color/buttonsBlue"
         android:text="+"
         android:textColor="@color/buttonsTextColor" />
@@ -219,6 +252,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="1dp"
         android:layout_marginBottom="82dp"
+        android:layout_x="40dp"
+        android:layout_y="407dp"
         android:background="@color/buttonsBlue"
         android:text="0"
         android:textColor="@color/buttonsTextColor" />
@@ -231,6 +266,8 @@
         android:layout_alignBottom="@+id/zero"
         android:layout_marginStart="1dp"
         android:layout_marginBottom="-2dp"
+        android:layout_x="123dp"
+        android:layout_y="406dp"
         android:background="@color/buttonsBlue"
         android:text="."
         android:textColor="@color/buttonsTextColor" />
@@ -243,6 +280,8 @@
         android:layout_alignTop="@+id/zero"
         android:layout_marginStart="0dp"
         android:layout_marginTop="3dp"
+        android:layout_x="199dp"
+        android:layout_y="405dp"
         android:background="@color/buttonsBlue"
         android:text="+/-"
         android:textColor="@color/buttonsTextColor" />
@@ -255,6 +294,8 @@
         android:layout_alignTop="@+id/zero"
         android:layout_marginStart="1dp"
         android:layout_marginTop="3dp"
+        android:layout_x="275dp"
+        android:layout_y="404dp"
         android:background="@color/equalsGreen"
         android:text="=" />
-</RelativeLayout>
+</android.widget.AbsoluteLayout>
